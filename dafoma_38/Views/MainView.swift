@@ -191,12 +191,6 @@ struct ProductSectionView: View {
                     .fontWeight(.bold)
                 
                 Spacer()
-                
-                Button("See All") {
-                    // TODO: Navigate to full product list
-                }
-                .font(.subheadline)
-                .foregroundColor(Color(hex: "147B45"))
             }
             
             ScrollView(.horizontal, showsIndicators: false) {

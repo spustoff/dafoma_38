@@ -326,12 +326,6 @@ struct ReviewsView: View {
                     .fontWeight(.semibold)
                 
                 Spacer()
-                
-                Button("See All") {
-                    // TODO: Show all reviews
-                }
-                .font(.subheadline)
-                .foregroundColor(Color(hex: "147B45"))
             }
             
             HStack {
